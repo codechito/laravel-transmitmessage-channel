@@ -37,7 +37,6 @@ class TransmitMessageChannel
             $body->sender = $message->sender;
             $body->recipient = $message->recipient;
             $body->message = $message->message;
-            echo $message->recipient;
     
             try {
                 $result = $sMSController->sendSMS($body);
