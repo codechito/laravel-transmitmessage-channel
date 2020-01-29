@@ -1,5 +1,5 @@
 {
-    "name": "transmitmessage/laravel-transmitmessage-channel",
+    "name": "codechito/laravel-transmitmessage-channel",
     "description": ":package_description",
     "homepage": "https://github.com/laravel-notification-channels/transmitmessage",
     "license": "MIT",
@@ -19,7 +19,7 @@
     "require-dev": {
         "mockery/mockery": "^1.0",
         "phpunit/phpunit": "^8.0",
-        "transmitmessage/php-client-sdk": "dev-master"
+        "codechito/php-client-sdk": "dev-master"
     },
     "autoload": {
         "psr-4": {
